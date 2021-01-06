@@ -1,0 +1,7 @@
+{"[elm]": {
+    "editor.formatOnSave": true
+    },
+    "terminal.integrated.shell.linux": "flatpak-spawn",
+    "terminal.integrated.shellArgs.linux": ["--host", "bash"],  
+    "window.zoomLevel": 2
+}
