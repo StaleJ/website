@@ -12,8 +12,9 @@
     />
   </head>
   <body>
-    <img src="abs.jpg" alt="absrtact background" />
-    <div class="circle"></div>
+    <div class="picture">
+      <img src="/static/abs.jpg" alt="absrtact background" />
+    </div>
 
     <div class="container" id="glass">
       <h2 class="seq">Hi, I'm Ståle Jacobsen</h2>
@@ -21,6 +22,17 @@
     </div>
 
     <h1>Computer Science student @ UiB</h1>
+
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="https://github.com/StaleJ">
+          <img src="/static/github.svg" alt="github" />
+        </a>
+        <a href="https://www.linkedin.com/in/st%C3%A5le-jacobsen-35a276149/">
+          <img src="/static/linkedin.svg" alt="linkedin" />
+        </a>
+      </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
@@ -39,7 +51,8 @@
           { y: -30, opacity: 0, stagger: 0.2, duration: 0.5 },
           "-=.5"
         )
-        .from("h1", { y: 20, clipPath: "inset(0 0 100% 0)" }, "-=.8");
+        .from("h1", { y: 20, clipPath: "inset(0 0 100% 0)" }, "-=.8")
+        .from("footer", { y: 20, clipPath: "inset(0 0 100% 0)" }, "-=.8");
     </script>
   </body>
 </html>
