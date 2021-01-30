@@ -28,11 +28,6 @@ body {
           box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-.container .footer {
-  padding: 2.5rem;
-  text-align: center;
-}
-
 .container h2 {
   font-size: 1.7em;
 }
